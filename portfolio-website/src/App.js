@@ -1,8 +1,12 @@
 import './App.css';
+import Navbar from './Navbar/Navbar';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <Navbar/>
+      <h1>Coming soon!</h1>
+    </div>
   );
 }
 
