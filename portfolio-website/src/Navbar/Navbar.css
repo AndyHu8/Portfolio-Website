@@ -1,0 +1,31 @@
+.wrapper {
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+/*NAVIGATION MITTE*/
+.nav-list {
+    width: 50%;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-list ul li:hover {
+    cursor: pointer;
+}
+
+/*SOCIAL MEDIA LOGOS*/
+.social-media-list ul {
+    display: flex;
+    list-style: none;
+}

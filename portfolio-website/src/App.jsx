@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <h1>Coming soon!</h1>
+      <h1 className='coming-soon'>//COMING SOON!</h1>
     </div>
   );
 }
