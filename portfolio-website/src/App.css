@@ -1,12 +1,10 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  background-color: darkblue;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 .coming-soon {
-  margin-top: 100px;
+  margin-top: 20%;
   text-align: center;
   color: white;
   font-size: 80px;
