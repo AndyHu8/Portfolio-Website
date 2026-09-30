@@ -1,12 +1,14 @@
 import './App.css';
 import Navbar from './Navbar/Navbar';
+import Home from './Home/Home';
 
 function App() {
   return (
-    <div>
+    <section>
       <Navbar/>
-      <h1 className='coming-soon'>//COMING SOON!</h1>
-    </div>
+      <Home/>
+      <h1 className='coming-soon'>HIER GEHT'S WEITER!</h1>
+    </section>
   );
 }
 

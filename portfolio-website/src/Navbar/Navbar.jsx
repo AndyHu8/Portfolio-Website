@@ -2,7 +2,7 @@ import './Navbar.css';
 
 function Navbar(){
     return (
-        <div className='wrapper'>
+        <section className='wrapper'>
             <div className='nav-list'>
                 <ul>
                     <li><a href={() => {}}>HOME</a></li>
@@ -13,7 +13,7 @@ function Navbar(){
                     <li><a href={() => {}}>KONTAKT</a></li>
                 </ul>
             </div>
-        </div>
+        </section>
     )
 }
 
