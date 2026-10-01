@@ -12,6 +12,10 @@ function Home(){
                         <br />
                         <p>Ich entwickle moderne und benutzerfreundliche Webanwendungen mit React.</p>
                         <p>Leidenschaftlich, lösungsorientiert und immer lernbereit.</p>
+                        <div className='home-buttons'>
+                            <button>Meine Projekte</button>
+                            <button>Kontakt</button>
+                        </div>
                     </div>
                     <div className='home-images'>
 
