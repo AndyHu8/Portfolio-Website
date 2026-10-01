@@ -1,10 +1,10 @@
 .wrapper {
     height: 100px;
-    color: black;
+    color: #F1EDE3;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid lightgray;
+    background-color: var(--lightgray);
 }
 
 /*NAVIGATION*/
@@ -13,7 +13,7 @@
     height: 50px;
     margin: 0 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: lightgray;
+    background-color: var(--darkgray);
     border-radius: 25px;
 }
 
@@ -38,6 +38,7 @@
 
 .nav-list ul li:hover {
     cursor: pointer;
-    background-color: white;
+    background-color: var(--lightgray);
+    color: var(--orange);
     transition: all 0.5s ease;
 }
