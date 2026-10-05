@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--lightgray);
+    background-color: var(--darkgray);
 }
 
 /*NAVIGATION*/
@@ -13,7 +13,7 @@
     height: 50px;
     margin: 0 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--darkgray);
+    background-color: var(--lightgray);
     border-radius: 25px;
 }
 
@@ -38,7 +38,7 @@
 
 .nav-list ul li:hover {
     cursor: pointer;
-    background-color: var(--lightgray);
+    background-color: var(--darkgray);
     color: var(--orange);
     transition: all 0.5s ease;
 }

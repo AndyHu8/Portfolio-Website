@@ -14,11 +14,8 @@ function Home(){
                         <p>Leidenschaftlich, lösungsorientiert und immer lernbereit.</p>
                         <div className='home-buttons'>
                             <button>Meine Projekte</button>
-                            <button>Kontakt</button>
+                            <button>Kontakt aufnehmen</button>
                         </div>
-                    </div>
-                    <div className='home-images'>
-
                     </div>
                 </div>
         </section>
