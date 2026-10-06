@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: var(--darkblue)
+    color: var(--darkblue);
 }
 
 /*HOME BACKGROUND TITLE*/
@@ -21,7 +21,7 @@
     transform: translate(-50%, -50%);
 
     /*Größe*/
-    font-size: 500px;
+    font-size: 300px;
 
     /*Hintergrund*/
     color: var(--darkblue);
@@ -42,7 +42,7 @@
 }
 
 .home-text h1 {
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .home-text p {
@@ -55,7 +55,7 @@
 }
 
 .home-buttons button {
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     background-color: var(--darkblue);
     padding: 15px 50px;
