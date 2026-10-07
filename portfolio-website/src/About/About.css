@@ -1,7 +1,29 @@
 .about-wrapper {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
-    height: 900px;
     color: white;
     background-color: var(--darkblue);
+    padding: 10% 15%;
+}
+
+.about-inhalt {
+    padding: 10%;
+    border: 3px solid var(--lightblue);
+    border-radius: 10px;
+}
+
+.about-inhalt p {
+    font-size: 20px;
+}
+
+.about-zusammenfassung {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-react-icons {
+    position: relative;
+    top: 5px;
 }
