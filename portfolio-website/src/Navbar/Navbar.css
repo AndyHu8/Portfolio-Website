@@ -41,3 +41,8 @@
     background-color: var(--darkblue);
     transition: all 0.5s ease;
 }
+
+.home-react-icons {
+    position: relative;
+    top: 2.5px;
+}
