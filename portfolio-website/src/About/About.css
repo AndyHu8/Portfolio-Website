@@ -12,7 +12,7 @@
 
 .about-inhalt {
     padding: 10%;
-    border: 3px solid var(--lightblue);
+    border: 3px solid var(--darkorange);
     border-radius: 10px;
 }
 
@@ -35,7 +35,7 @@
     object-fit: cover;
     object-position: center top;
     border-radius: 50%;
-    border: 4px solid white;
+    border: 3px solid var(--darkorange);
 }
 
 .about-zusammenfassung {
