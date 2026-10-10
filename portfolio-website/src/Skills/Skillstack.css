@@ -1,0 +1,21 @@
+.skillstack-wrapper {
+    font-size: 20px;
+    padding: 2%;
+    width: 500px;
+    border: 3px solid var(--darkorange);
+    border-radius: 10px;
+    line-height: 2.5;
+}
+
+.skillstack-wrapper p {
+    font-size: 25px;
+}
+
+.span-text {
+    padding-left: 5%;
+}
+
+.skills-react-icons {
+    position: relative;
+    top: 5px;
+}
