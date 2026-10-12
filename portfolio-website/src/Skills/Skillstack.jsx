@@ -7,7 +7,7 @@ function Skillstack({headline, stacklist = []}) {
             <br />
             {stacklist.map((skill) => {
                 return (
-                    <div key={skill.name}>
+                    <div className='skillstack-realstack' key={skill.name}>
                         {skill.icon}
                         <span className='span-text'>{skill.name}</span>
                     </div>
