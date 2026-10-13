@@ -6,7 +6,7 @@ function Skills(){
     return (
         <section className='skills-wrapper'>
             <div className='skills-inhalt'>
-                <h1>MEINE SKILLS & TECHNOLOGIEN</h1>
+                <h1>Meine Skills & Technologien</h1>
                 <br />
                 <p>Hier sind die Technologien, mit denen ich arbeite und die ich aktuell in meinem Alltag einsetze.</p>
                 <div className='skills-stack'>

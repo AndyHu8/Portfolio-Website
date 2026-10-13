@@ -11,7 +11,7 @@ function Home(){
                     <div className='home-text'>
                         <h1>Hello! <MdWavingHand className='home-react-icons' size={50}/></h1>
                         <h1>I'm Andy.</h1>
-                        <h2>Frontend Developer aus Berlin</h2>
+                        <h2>Junior Frontend Dev aus Berlin</h2>
                         <br />
                         <p>Ich entwickle moderne und benutzerfreundliche Webanwendungen mit React.</p>
                         <p>Leidenschaftlich, lösungsorientiert und immer lernbereit.</p>
