@@ -10,11 +10,11 @@
 /*NAVIGATION*/
 .nav-list {
     width: 50%;
-    height: 80px;
+    height: 75px;
     margin: 0 100px;
     font-family: "Outfit", sans-serif;
     background-color: white;
-    border-radius: 13px;
+    border-radius: 22px;
 }
 
 .nav-list ul {

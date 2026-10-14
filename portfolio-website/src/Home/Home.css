@@ -3,6 +3,7 @@
     position: relative;
     width: 100%;
     height: 900px;
+    padding: 0% 20%;
     text-align: center;
     background-color: var(--backgroundcolor);
 }
@@ -22,7 +23,7 @@
 
     /*Hintergrund*/
     color: lightgray;
-    font-family: "Noto Serif TC", serif;
+    font-family: "Noto Sans SC", sans-serif;
 }
 
 /*HOME INHALT*/

@@ -10,7 +10,7 @@ function About(){
             <div className='about-inhalt'>
                 <div className='about-flexbox'>
                     <div>
-                        <h1>Wer ich bin</h1>
+                        <h1>Wer ich bin.</h1>
                         <br />
                         <p>Ich bin ein ausgebildeter Fachinformatiker für Anwendungsentwicklung
                         und habe mich auf die Entwicklung moderner Webanwendungen spezialisiert.</p>
