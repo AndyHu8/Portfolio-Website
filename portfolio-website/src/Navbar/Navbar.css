@@ -1,20 +1,20 @@
 .wrapper {
     height: 100px;
-    color: white;
+    color: var(--black);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--darkblue);
+    background-color: var(--backgroundcolor);
 }
 
 /*NAVIGATION*/
 .nav-list {
     width: 50%;
-    height: 50px;
+    height: 80px;
     margin: 0 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--lightblue);
-    border-radius: 25px;
+    font-family: "Outfit", sans-serif;
+    background-color: white;
+    border-radius: 13px;
 }
 
 .nav-list ul {
@@ -38,8 +38,8 @@
 
 .nav-list ul li:hover {
     cursor: pointer;
-    background-color: var(--darkblue);
-    transition: all 0.5s ease;
+    color: gray;
+    transition: all 0.2s ease;
 }
 
 .home-react-icons {

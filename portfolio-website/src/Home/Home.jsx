@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 function Home(){
     return (
         <section className='home-wrapper'>
-            <h1 className='home-background-title'>HELLO WORLD!</h1>
+            <h1 className='home-background-title'>你好 <br /> 世界</h1>
                 <div className='home-inhalt'>
                     <div className='home-text'>
                         <h1>Hello! <MdWavingHand className='home-react-icons' size={50}/></h1>
