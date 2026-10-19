@@ -1,0 +1,10 @@
+- [] Section: Footer einbauen
+- [] Section: Projekte einbauen + GitHub API?
+- [] Impressum & Datenschutz (Informieren & einbauen)
+- [] Navbar Routing
+- [] Funktion der Home-Section
+- [] Funktion des Forms
+- [] Smooth Scroll bei Links
+- [] Scrollbar > Weiß
+- [] Responsive Design
+- [] Darkmode
