@@ -1,0 +1,73 @@
+.kontakt-wrapper {
+    width: 100%;
+    height: 900px;
+    font-family: "Outfit", sans-serif;
+    color: var(--black);
+    padding: 0% 20%;
+    background-color: var(--backgroundcolor);
+}
+
+.kontakt-wrapper p {
+    font-size: 20px;
+    margin-top: 3%
+}
+
+.kontakt-flexbox form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 3%;
+}
+
+.kontakt-inputs {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.5rem;
+    font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.8rem 1rem;
+    font: inherit;
+    border: 1px solid var(--black);
+    border-radius: 6px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-width: 100%;
+    min-height: 200px;
+}
+
+.kontakt-flexbox button {
+    align-self: flex-start;
+    color: var(--black);
+    background-color: white;
+    border-radius: 13px;
+    border: 1px solid white;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.kontakt-flexbox button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    transform: translateY(-5%);
+    transition: all 0.1s ease-in-out;
+}
+
+/*@media (max-width: 600px) {
+    .kontakt-inputs {
+        flex-direction: column;
+    }
+}*/
