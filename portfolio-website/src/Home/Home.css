@@ -51,7 +51,7 @@
 }
 
 .home-buttons a {
-        display: inline-block;
+    display: inline-block;
     font-size: 18px;
     color: var(--black);
     background-color: white;

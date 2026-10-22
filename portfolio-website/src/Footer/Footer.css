@@ -1,14 +1,14 @@
 .footer-wrapper {
     width: 100%;
-    height: auto;
+    height: 100px;
+    color: var(--black);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 2.5%;
+    padding: 0% 10%;
     background-color: var(--backgroundcolor);
     font-family: "Outfit", sans-serif;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid var(--black);
 }
 
 .footer-wrapper .footer-divs {
@@ -25,6 +25,14 @@
     top: 7.5px;
 }
 
-.footer-wrapper .footer-divs p :hover {
+.footer-wrapper .footer-divs a {
+    color: var(--black);
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+    pointer-events: auto;
+}
+
+.footer-wrapper .footer-divs a:hover {
     cursor: pointer;
+    transform: translateY(-5px);
 }

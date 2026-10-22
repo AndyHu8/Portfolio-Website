@@ -8,15 +8,24 @@ function Footer() {
     return (
         <div className='footer-wrapper'>
             <div className='footer-divs'>
-                <p>© 2026 Dev Andy</p>
+                <a href='#home'>© 2026 Dev Andy</a>
             </div>
             <div className='footer-divs social-links'>
-                <p> <FaLinkedin size={30} className='react-icon'/> LinkedIn</p>
-                <p> <FaInstagramSquare size={30} className='react-icon'/> Instragram</p>
-                <p> <FaGithub size={30} className='react-icon'/> GitHub</p>
+                <a
+                    href="https://linkedin.com/in/andy-hu-berlin/"
+                    target="_blank"
+                    rel="noopener noreferrer"><FaLinkedin size={30} className='react-icon'/> LinkedIn</a>
+                <a
+                    href="https://instagram.com/anhu_chn"
+                    target="_blank"
+                    rel="noopener noreferrer"><FaInstagramSquare size={30} className='react-icon'/> Instragram</a>
+                <a 
+                    href="https://github.com/AndyHu8"
+                    target="_blank"
+                    rel="noopener noreferrer"><FaGithub size={30} className='react-icon'/> GitHub</a>
             </div>
             <div className='footer-divs'>
-                <p><MdEmail size={30} className='react-icon'/> Direkt erreichbar</p>
+                <a href="mailto:huandy01@gmail.com"><MdEmail size={30} className='react-icon'/> Direkt erreichbar</a>
             </div>
         </div>
     )
