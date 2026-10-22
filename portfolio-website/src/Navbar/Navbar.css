@@ -39,12 +39,12 @@
 .nav-list ul li a {
     color: var(--black);
     text-decoration: none;
+    transition: all 0.2s ease;
 }
 
 .nav-list ul li a:hover {
     cursor: pointer;
     color: gray;
-    transition: all 0.2s ease;
 }
 
 .home-react-icons {

@@ -60,13 +60,13 @@
     border-radius: 13px;
     border: 1px solid white;
     text-decoration: none;
+    transition: all 0.1s ease-in-out;
 }
 
 .home-buttons a:hover {
     cursor: pointer;
     background-color: lightgray;
-    transform: translateY(-5%);
-    transition: all 0.1s ease-in-out;
+    transform: translateY(-5px);
 }
 
 .home-react-icons {

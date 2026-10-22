@@ -57,13 +57,13 @@
     padding: 0.8rem 1.5rem;
     cursor: pointer;
     font-size: 20px;
+    transition: all 0.1s ease-in-out;
 }
 
 .kontakt-flexbox button:hover {
     cursor: pointer;
     background-color: lightgray;
-    transform: translateY(-5%);
-    transition: all 0.1s ease-in-out;
+    transform: translateY(-5px);
 }
 
 /*@media (max-width: 600px) {
