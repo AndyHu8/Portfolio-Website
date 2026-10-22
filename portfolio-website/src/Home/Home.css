@@ -50,7 +50,8 @@
     height: 100%;
 }
 
-.home-buttons button {
+.home-buttons a {
+        display: inline-block;
     font-size: 18px;
     color: var(--black);
     background-color: white;
@@ -58,9 +59,10 @@
     margin-right: 25px;
     border-radius: 13px;
     border: 1px solid white;
+    text-decoration: none;
 }
 
-.home-buttons button:hover {
+.home-buttons a:hover {
     cursor: pointer;
     background-color: lightgray;
     transform: translateY(-5%);

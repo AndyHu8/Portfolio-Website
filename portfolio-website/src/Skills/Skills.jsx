@@ -4,7 +4,7 @@ import allSkills from './AllSkills';
 
 function Skills(){
     return (
-        <section className='skills-wrapper'>
+        <section id='skills' className='skills-wrapper'>
             <div className='skills-inhalt'>
                 <h1>Meine Skills & Technologien.</h1>
                 <br />

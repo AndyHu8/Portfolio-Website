@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Home(){
     return (
-        <section className='home-wrapper'>
+        <section id='home' className='home-wrapper'>
             <h1 className='home-background-title'>你好 <br /> 世界</h1>
                 <div className='home-inhalt'>
                     <div className='home-text'>
@@ -16,8 +16,8 @@ function Home(){
                         <p>Ich entwickle moderne und benutzerfreundliche Webanwendungen mit React.</p>
                         <p>Leidenschaftlich, lösungsorientiert und immer lernbereit.</p>
                         <div className='home-buttons'>
-                            <button>Meine Projekte <FaArrowRight className='home-react-icons' size={15}/></button>
-                            <button>Kontakt aufnehmen <MdEmail className='home-react-icons' size={15}/></button>
+                            <a href='#projekte'>Meine Projekte <FaArrowRight className='home-react-icons' size={15}/></a>
+                            <a href='#kontakt'>Kontakt aufnehmen <MdEmail className='home-react-icons' size={15}/></a>
                         </div>
                     </div>
                 </div>

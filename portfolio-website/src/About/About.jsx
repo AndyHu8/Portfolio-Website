@@ -6,7 +6,7 @@ import Profilfoto from '../images/Profilfoto.jpeg';
 
 function About(){
     return (
-        <section className='about-wrapper'>
+        <section id='about' className='about-wrapper'>
             <div className='about-inhalt'>
                 <div className='about-flexbox'>
                     <div>

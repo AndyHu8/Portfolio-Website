@@ -2,7 +2,7 @@ import './Kontakt.css';
 
 function Kontakt() {
     return (
-        <div className="kontakt-wrapper">
+        <section id='kontakt' className="kontakt-wrapper">
             <h1>Let's work together.</h1>
 
             <p>
@@ -52,7 +52,7 @@ function Kontakt() {
                     </button>
                 </form>
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -4,3 +4,24 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+/* Chrome, Edge und Safari */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--backgroundcolor);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--backgroundcolor);
+    border-radius: 10px;
+}
+
+/* Firefox */
+html {
+    scrollbar-color: lightgray var(--backgroundcolor);
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
