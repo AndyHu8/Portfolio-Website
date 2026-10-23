@@ -1,13 +1,10 @@
-- [] Section: Footer einbauen
-- [] Section: Projekte einbauen + GitHub API?
-- [] Hover: Smooth auch zurück
-- [] Impressum & Datenschutz (Informieren & einbauen)
-- [] Navbar Routing
-- [] Funktion der Home-Section
-- [] Funktion des Forms
-- [] Smooth Scroll bei Links
-- [] Scrollbar > Weiß
-- [] Responsive Design
-- [] Darkmode
-- [] package.json 2mal?
-- [] manifest.json & robots.txt löschen?
+Main:
+- Section: Projekte einbauen + GitHub API?
+- Impressum & Datenschutz einbauen
+- Funktion des Forms mit EmailJS
+- Responsive Design
+- Darkmode
+
+Refactoring:
+- package.json 2mal => erstmal so lassen
+- Einheiten auslagern?

@@ -11,7 +11,6 @@ function Navbar(){
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#skills">SKILLS</a></li>
                     <li><a href="#projekte">PROJEKTE</a></li>
-                    <li><a href="#lernen">LERNEN</a></li>
                     <li><a href="#kontakt">KONTAKT</a></li>
                 </ul>
             </div>
