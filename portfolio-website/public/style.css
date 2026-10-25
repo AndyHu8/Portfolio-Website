@@ -1,0 +1,24 @@
+* {
+    font-family: "Outfit", sans-serif;
+    text-decoration: none;
+    background-color: var(--backgroundColor);
+    color: var(--black);
+}
+
+main {
+    padding: 5% 20%;
+}
+
+main p, a, li {
+    font-size: 20px;
+    list-style: none;
+}
+
+main a {
+    transition: all 0.2s ease;
+}
+
+main a:hover {
+    cursor: pointer;
+    color: gray;
+}
