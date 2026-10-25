@@ -4,7 +4,7 @@ import { RiHome2Fill } from "react-icons/ri";
 
 function Navbar(){
     return (
-        <section className='wrapper'>
+        <section className='navbar-wrapper'>
             <div className='nav-list'>
                 <ul>
                     <li><a href="#home"><RiHome2Fill className='home-react-icons' size={20}/></a></li>

@@ -1,10 +1,11 @@
 Main:
 - Section: Projekte einbauen + GitHub API?
-- Impressum & Datenschutz einbauen
 - Funktion des Forms mit EmailJS
 - Responsive Design
 - Darkmode
+- Hosting mit Netlify oder Vercel
 
 Refactoring:
-- package.json 2mal => erstmal so lassen
 - Einheiten auslagern?
+- Einheiten ordnen: wann rem, %, px
+- Datenschutz refacten: EmailJS, Fonts, GitHub-API, Hosting

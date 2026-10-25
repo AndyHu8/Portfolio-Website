@@ -6,6 +6,7 @@ import Skills from './Skills/Skills';
 import Projekte from './Projekte/Projekte';
 import Kontakt from './Kontakt/Kontakt';
 import Footer from './Footer/Footer';
+import WeitereSeiten from './WeitereSeiten/WeitereSeiten';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Projekte/>
       <Kontakt/>
       <Footer/>
+      <WeitereSeiten/>
     </section>
   );
 }

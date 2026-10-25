@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 
 function Footer() {
     return (
-        <div className='footer-wrapper'>
+        <section className='footer-wrapper'>
             <div className='footer-divs'>
                 <a href='#home'>© 2026 Dev Andy</a>
             </div>
@@ -27,7 +27,7 @@ function Footer() {
             <div className='footer-divs'>
                 <a href="mailto:huandy01@gmail.com"><MdEmail size={30} className='react-icon'/> Direkt erreichbar</a>
             </div>
-        </div>
+        </section>
     )
 }
 
