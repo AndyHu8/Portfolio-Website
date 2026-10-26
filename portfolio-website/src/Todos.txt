@@ -1,6 +1,5 @@
 Main:
 - Section: Projekte einbauen + GitHub API?
-- Funktion des Forms mit EmailJS
 - Responsive Design
 - Darkmode
 - Hosting mit Netlify oder Vercel
@@ -9,3 +8,4 @@ Refactoring:
 - Einheiten auslagern?
 - Einheiten ordnen: wann rem, %, px
 - Datenschutz refacten: EmailJS, Fonts, GitHub-API, Hosting
+- Animation bei Meldung Success, Error überarbeiten
