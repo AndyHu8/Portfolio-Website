@@ -6,17 +6,28 @@ import { useEffect } from 'react';
 function Kontakt() {
 
 const [status, setStatus] = useState("idle");
+const [isFadingOut, setIsFadingOut] = useState(false);
 
 useEffect(() => {
     if (status !== "success" && status !== "error") {
+        setIsFadingOut(false);
         return;
     }
 
-    const timer = setTimeout(() => {
+    setIsFadingOut(false);
+
+    const fadeTimer = setTimeout(() => {
+        setIsFadingOut(true);
+    }, 3600);
+
+    const removeTimer = setTimeout(() => {
         setStatus("idle");
     }, 4000);
 
-    return () => clearTimeout(timer);
+    return () => {
+        clearTimeout(fadeTimer);
+        clearTimeout(removeTimer);
+    }
 }, [status]);
 
 const handleSubmit = async (event) => {
@@ -88,8 +99,8 @@ const handleSubmit = async (event) => {
                         {status === "loading" ? "Wird gesendet..." : "Nachricht senden"}
                     </button>
 
-                    {status === "success" && (<p className="form-status success" role="status">Nachricht erfolgreich gesendet!</p>)}
-                    {status === "error" && (<p className="form-status error" role="alert">Senden fehlgeschlagen. Bitte versuche es erneut.</p>)}
+                    {status === "success" && (<p className={`form-status success  ${isFadingOut ? "fade-out" : ""}`} role="status">Nachricht erfolgreich gesendet!</p>)}
+                    {status === "error" && (<p className={`form-status error ${isFadingOut ? "fade-out" : ""}`} role="alert">Senden fehlgeschlagen. Bitte versuche es erneut.</p>)}
                 </form>
             </div>
         </section>
