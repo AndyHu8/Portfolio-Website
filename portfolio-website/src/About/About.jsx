@@ -2,7 +2,7 @@ import './About.css';
 import { FaLocationDot } from "react-icons/fa6";
 import { MdWorkspacePremium } from "react-icons/md";
 import { FaCode } from "react-icons/fa";
-import Profilfoto from '../images/Profilfoto.jpeg';
+import Profilfoto from '../Profilfoto.jpeg';
 
 function About(){
     return (
