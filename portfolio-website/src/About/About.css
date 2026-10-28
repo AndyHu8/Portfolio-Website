@@ -1,19 +1,19 @@
 .about-wrapper {
-    font-family: "Outfit", sans-serif;
+    font-family: var(--fontFamily);
     width: 100%;
     color: var(--black);
-    padding: 5% 20%;
-    background-color: var(--backgroundcolor);
+    padding: var(--paddingSection);
+    background-color: var(--backgroundColor);
 }
 
 .about-inhalt {
     padding: 10%;
-    border: 3px solid lightgray;
-    border-radius: 13px;
+    border: var(--border);
+    border-radius: var(--borderRadius);
 }
 
 .about-inhalt p {
-    font-size: 20px;
+    font-size: var(--fontSizeP);
 }
 
 .about-flexbox {
@@ -31,7 +31,7 @@
     object-fit: cover;
     object-position: center top;
     border-radius: 50%;
-    border: 3px solid lightgray;
+    border: var(--border);
 }
 
 .about-zusammenfassung {
@@ -42,7 +42,7 @@
 }
 
 .about-zusammenfassung p {
-    font-size: 25px;
+    font-size: var(--fontSizeP);
 }
 
 .about-react-icons {

@@ -8,7 +8,7 @@ function Footer() {
     return (
         <section className='footer-wrapper'>
             <div className='footer-divs'>
-                <a href='#home'>© 2026 Dev Andy</a>
+                <a href='#navbar'>© 2026 Dev Andy</a>
             </div>
             <div className='footer-divs social-links'>
                 <a

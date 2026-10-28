@@ -1,4 +1,5 @@
 import './Home.css';
+import '../Styles/Variables.css';
 import { MdWavingHand } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";

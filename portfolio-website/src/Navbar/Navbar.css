@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--backgroundcolor);
+    background-color: var(--backgroundColor);
 }
 
 /*NAVIGATION*/
@@ -12,8 +12,8 @@
     width: 50%;
     height: 75px;
     margin: 0 100px;
-    font-family: "Outfit", sans-serif;
-    background-color: white;
+    font-family: var(--fontFamily);
+    background-color: var(--backgroundColorWhite);
     border-radius: 22px;
 }
 
@@ -44,7 +44,7 @@
 
 .nav-list ul li a:hover {
     cursor: pointer;
-    color: gray;
+    color: var(--hoverColorFont);
 }
 
 .home-react-icons {

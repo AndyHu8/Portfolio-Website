@@ -5,6 +5,5 @@ Main:
 - Hosting mit Netlify oder Vercel
 
 Refactoring:
-- Einheiten auslagern?
 - Einheiten ordnen: wann rem, %, px
 - Datenschutz refacten: GitHub-API

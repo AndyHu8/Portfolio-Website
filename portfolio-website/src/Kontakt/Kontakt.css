@@ -1,28 +1,28 @@
 .kontakt-wrapper {
     width: 100%;
     height: auto;
-    font-family: "Outfit", sans-serif;
+    font-family: var(--fontFamily);
     color: var(--black);
-    padding: 0% 20%;
+    padding: var(--paddingSection);
     padding-bottom: 10%;
-    background-color: var(--backgroundcolor);
+    background-color: var(--backgroundColor);
 }
 
 .kontakt-wrapper p {
-    font-size: 20px;
+    font-size: var(--fontSizeP);
     margin-top: 3%;
 }
 
 .kontakt-flexbox form {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: var(--gap);
     margin-top: 3%;
 }
 
 .kontakt-inputs {
     display: flex;
-    gap: 1.5rem;
+    gap: var(--gap);
 }
 
 .form-group {
@@ -30,7 +30,7 @@
     flex-direction: column;
     flex: 1;
     gap: 0.5rem;
-    font-size: 20px;
+    font-size: var(--fontSizeP);
 }
 
 .form-group input,
@@ -40,7 +40,7 @@
     padding: 0.8rem 1rem;
     font: inherit;
     border: 1px solid var(--black);
-    border-radius: 13px;
+    border-radius: var(--borderRadius);
 }
 
 .form-group textarea {
@@ -54,17 +54,17 @@
     align-self: flex-start;
     color: var(--black);
     background-color: white;
-    border-radius: 13px;
+    border-radius: var(--borderRadius);
     border: 1px solid white;
     padding: 0.8rem 1.5rem;
     cursor: pointer;
-    font-size: 20px;
+    font-size: var(--fontSizeP);
     transition: all 0.1s ease-in-out;
 }
 
 .kontakt-flexbox button:hover {
     cursor: pointer;
-    background-color: lightgray;
+    background-color: var(--hoverColorBackground);
     transform: translateY(-5px);
 }
 
@@ -72,9 +72,9 @@
 
 p.form-status {
     padding: 1rem;
-    border-radius: 13px;
-    font-size: 20px;
-    background-color: white;
+    border-radius: var(--borderRadius);
+    font-size: var(--fontSizeP);
+    background-color: var(--backgroundColorWhite);
     margin-top: 0%;
     animation: slideIn 0.3s ease-out;
 }
@@ -96,26 +96,6 @@ button:disabled {
 
 .form-status.fade-out {
     animation: fadeOut 0.4s ease-in forwards;
-}
-
-/*Animation*/
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateY(8px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeOut {
-    to {
-        opacity: 0;
-        transform: translateY(-8px);
-    }
 }
 
 

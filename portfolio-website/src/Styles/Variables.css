@@ -1,0 +1,21 @@
+:root {
+    /*Farben*/
+    --backgroundColor: #f7f7f8;
+    --black: #171719;
+    --backgroundColorWhite: white;
+    --hoverColorBackground: lightgray;
+    --hoverColorFont: gray;
+
+    /*Font*/
+    --fontFamily: "Outfit", sans-serif;
+    --fontFamilyChinese: "Noto Sans SC", sans-serif;
+    --fontSizeP: 20px;
+
+    /*Abstände*/
+    --paddingSection: 5% 20%;
+    --gap: 1.5rem;
+
+    /*Border*/
+    --border: 3px solid lightgray;
+    --borderRadius: 13px;
+}

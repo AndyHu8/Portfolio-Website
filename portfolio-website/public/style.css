@@ -1,8 +1,8 @@
 * {
     font-family: "Outfit", sans-serif;
     text-decoration: none;
-    background-color: var(--backgroundColor);
-    color: var(--black);
+    background-color: #f7f7f8;
+    color: #171719;
 }
 
 main {

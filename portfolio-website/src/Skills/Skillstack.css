@@ -1,9 +1,9 @@
 .skillstack-wrapper {
-    font-size: 20px;
+    font-size: var(--fontSizeP);
     padding: 2%;
     width: 350px;
-    border: 3px solid lightgray;
-    border-radius: 13px;
+    border: var(--border);
+    border-radius: var(--borderRadius);
 }
 
 .skillstack-realstack {

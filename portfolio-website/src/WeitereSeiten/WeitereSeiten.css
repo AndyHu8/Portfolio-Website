@@ -1,12 +1,12 @@
 .weitereSeiten-wrapper {
     width: 100%;
     display: flex;
-    gap: 15px;
+    gap: var(--gap);
     justify-content: flex-end;
     padding: 1% 20%;
-    font-size: 20px;
-    font-family: "Outfit", sans-serif;
-    background-color: white;
+    font-size: var(--fontSizeP);
+    font-family: var(--fontFamily);
+    background-color: var(--backgroundColorWhite);
 }
 
 .weitereSeiten-wrapper p a {
