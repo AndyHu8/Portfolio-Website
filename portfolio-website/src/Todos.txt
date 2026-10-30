@@ -8,6 +8,5 @@ Main:
 
 Refactoring:
 - Einheiten ordnen: wann rem, %, px
-- Neues Logo erstellen lassen
 
 - Am Ende: Komplettes Projekt an Chat refacten lassen
