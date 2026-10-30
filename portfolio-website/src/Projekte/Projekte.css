@@ -3,6 +3,11 @@
     background-color: var(--backgroundColor);
 }
 
+.loading {
+    font-size: var(--fontSizeP);
+    margin-top: 3%;
+}
+
 .projekte-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));

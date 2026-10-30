@@ -40,12 +40,12 @@ function Projekte() {
     fetchRepositories();
   }, []);
 
-  if (loading) return <p>Projekte werden geladen ...</p>;
-  if (error) return <p>Projekte konnten nicht geladen werden.</p>;
-
   return (
     <section className="projekte-wrapper" id="projekte">
       <h1>Meine Projekte</h1>
+
+      {loading === true && (<p className="loading">Projekte werden geladen ...</p>)}
+      {error === true && (<p className="loading">Projekte konnten nicht geladen werden.</p>)}
 
       <div className="projekte-grid">
         {projectData.map((project) => {
