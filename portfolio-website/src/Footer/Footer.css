@@ -33,6 +33,5 @@
 }
 
 .footer-wrapper .footer-divs a:hover {
-    cursor: pointer;
     transform: translateY(-5px);
 }
