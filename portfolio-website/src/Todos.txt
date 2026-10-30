@@ -1,9 +1,14 @@
 Main:
-- Section: Projekte einbauen + GitHub API?
 - Responsive Design
 - Darkmode
-- Hosting mit Netlify oder Vercel
+- Sicherheit der Website klären
+- ReadMe Datei befüllen
+- Hosting mit Netlify oder Vercel (Ist es gut?)
+- KI-Fragen: welche Free KI soll ich benutzen? Wie soll ich die KI benutzen, wenn ich selber noch coden möchte?
 
 Refactoring:
 - Einheiten ordnen: wann rem, %, px
 - Datenschutz refacten: GitHub-API
+- Neues Logo erstellen lassen
+
+- Am Ende: Komplettes Projekt an Chat refacten lassen
