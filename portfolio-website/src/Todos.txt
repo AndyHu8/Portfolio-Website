@@ -2,11 +2,10 @@ Main:
 - Responsive Design
 - Darkmode
 - Sicherheit der Website klären + einbauen
-- ReadMe Datei befüllen
 - Hosting mit Netlify oder Vercel (Ist es gut?)
-- KI-Fragen: welche Free KI soll ich benutzen? Wie soll ich die KI benutzen, wenn ich selber noch coden möchte?
 
 Refactoring:
 - Einheiten ordnen: wann rem, %, px
+- Tab Logo ändern
 
 - Am Ende: Komplettes Projekt an Chat refacten lassen

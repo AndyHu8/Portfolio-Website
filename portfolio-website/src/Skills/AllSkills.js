@@ -18,6 +18,7 @@ import { AiFillApi } from "react-icons/ai";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { RiNpmjsFill } from "react-icons/ri";
+import { AiFillRobot } from "react-icons/ai";
 
 //Weitere Kenntnisse
 import { TbBrandCSharp } from "react-icons/tb";
@@ -44,6 +45,7 @@ const allSkills = {
         {icon: <FaGitAlt className="allSkills-react-icons" size={30} color='#F1502F'/>, name: "Git"},
         {icon: <FaGithub className="allSkills-react-icons" size={30}/>, name: "GitHub"},
         {icon: <RiNpmjsFill className="allSkills-react-icons" size={30} color='#CB3837'/>, name: "NPM"},
+        {icon: <AiFillRobot className="allSkills-react-icons" size={30}/>, name: "AI"},
     ],
     weitereKenntnisse: [
         {icon: <TbBrandCSharp className="allSkills-react-icons" size={30} color='#9179E4'/>, name: "C#"},

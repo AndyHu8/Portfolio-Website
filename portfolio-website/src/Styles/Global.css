@@ -6,22 +6,18 @@
 }
 
 /* Chrome, Edge und Safari */
-::-webkit-scrollbar {
-    width: 10px;
-}
-
 ::-webkit-scrollbar-track {
-    background: var(--backgroundcolor);
+    background: var(--backgroundColor);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--backgroundcolor);
-    border-radius: 10px;
+    background: var(--backgroundColor);
+    border-radius: var(--borderRadius);
 }
 
 /* Firefox */
 html {
-    scrollbar-color: lightgray var(--backgroundcolor);
+    scrollbar-color: lightgray var(--backgroundColor);
     scrollbar-width: thin;
     scroll-behavior: smooth;
 }

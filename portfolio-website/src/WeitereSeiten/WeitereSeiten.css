@@ -3,7 +3,7 @@
     display: flex;
     gap: var(--gap);
     justify-content: flex-end;
-    padding: 1% 20%;
+    padding: 1.5rem 30rem;
     font-size: var(--fontSizeP);
     font-family: var(--fontFamily);
     background-color: var(--backgroundColorWhite);

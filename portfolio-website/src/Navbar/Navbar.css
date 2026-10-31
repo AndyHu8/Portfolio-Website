@@ -1,20 +1,21 @@
 .navbar-wrapper {
-    height: 100px;
+    height: 100%;
     color: var(--black);
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--backgroundColor);
+    padding-top: 1.5rem;
 }
 
 /*NAVIGATION*/
 .nav-list {
     width: 50%;
-    height: 75px;
-    margin: 0 100px;
+    height: 100%;
     font-family: var(--fontFamily);
     background-color: var(--backgroundColorWhite);
-    border-radius: 22px;
+    border-radius: var(--borderRadius);
+    padding: 1.5rem;
 }
 
 .nav-list ul {
@@ -24,13 +25,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 1rem;
     list-style: none;
 }
 
 .nav-list ul li {
     height: 100%;
-    width: 200px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,5 +50,5 @@
 
 .home-react-icons {
     position: relative;
-    top: 2.5px;
+    top: 0.5rem;
 }

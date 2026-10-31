@@ -9,13 +9,37 @@
     /*Font*/
     --fontFamily: "Outfit", sans-serif;
     --fontFamilyChinese: "Noto Sans SC", sans-serif;
-    --fontSizeP: 20px;
+    --fontSizeP: 1.2rem;
 
     /*Abstände*/
-    --paddingSection: 5% 20%;
+    --paddingSection: 5rem 30rem;
     --gap: 1.5rem;
 
     /*Border*/
     --border: 3px solid lightgray;
-    --borderRadius: 13px;
+    --borderRadius: 1rem;
 }
+
+/*
+Welche Einheiten soll ich wann benutzen?
+- rem (1rem = 16px): font-size, padding, margin, gap, border-radius, width und height, wenn die Größe bewusst skalierbar sein soll
+- %: width, height (wenn die Elternhöhe definiert ist), Positionierungen, flexible Layouts
+- px: border, dünne Linien, box-shadow, kleine Details, gezielte Breakpoints
+*/
+
+/*
+Variables.css -/
+Global.css -/
+Style.css -/
+Navbar.css -/
+Home.css -/-
+About.css
+Skills.css -/
+AllSkills.css -/
+Skillstack.css -/
+Projekte.css
+Kontakt.css
+Footer.css -/
+WeitereSeiten.css -/
+*/
+
