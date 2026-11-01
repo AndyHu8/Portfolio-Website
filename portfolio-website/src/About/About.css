@@ -7,7 +7,7 @@
 }
 
 .about-inhalt {
-    padding: 10%;
+    padding: 5rem;
     border: var(--border);
     border-radius: var(--borderRadius);
 }
@@ -18,16 +18,14 @@
 
 .about-flexbox {
     display: flex;
-    justify-content: space-around;
-}
-
-.about-flexbox div {
-    max-width: 600px;
+    gap: var(--gap);
+    align-items: center;
 }
 
 .about-flexbox img {
-    width: 300px;
-    height: 300px;
+    width: 15rem;
+    height: 15rem;
+    aspect-ratio: 1/1;
     object-fit: cover;
     object-position: center top;
     border-radius: 50%;
@@ -35,7 +33,7 @@
 }
 
 .about-zusammenfassung {
-    margin-top: 5%;
+    margin-top: 4rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -47,5 +45,5 @@
 
 .about-react-icons {
     position: relative;
-    top: 5px;
+    top: 0.5rem;
 }

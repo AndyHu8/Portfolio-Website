@@ -1,10 +1,15 @@
 .home-wrapper {
     position: relative;
+    overflow: hidden;
     width: 100%;
     height: 100%;
+    min-height: 100vh;
     padding: var(--paddingSection);
     text-align: center;
     background-color: var(--backgroundColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*HOME BACKGROUND TITLE*/
@@ -13,16 +18,17 @@
     z-index: 0;
 
     /*Position*/
-    top: 90%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    white-space: nowrap;
 
     /*Größe*/
     font-size: 20rem;
 
     /*Hintergrund*/
-    color: lightgray;
-    font-family: "Noto Sans SC", sans-serif;
+    color: var(--hoverColorBackground);
+    font-family: var(--fontFamilyChinese);
 }
 
 /*HOME INHALT*/
@@ -30,7 +36,6 @@
     position: relative;
     z-index: 1;
     display: flex;
-    height: 100%;
     justify-content: center;
     align-items: center;
     color: var(--black);

@@ -5,14 +5,14 @@
 
 .loading {
     font-size: var(--fontSizeP);
-    margin-top: 3%;
+    margin-top: 3rem;
 }
 
 .projekte-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: var(--gap);
-    margin-top: 3%;
+    margin-top: 3rem;
 }
 
 .projekte-card {
@@ -55,7 +55,7 @@
 .projekte-tags span {
     padding: 0.4rem 0.8rem;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: var(--borderRadius);
     color: white;
     font-size: 0.8rem;
 }
@@ -72,7 +72,7 @@
 }
 
 .projekte-links a:hover {
-    transform: translateY(-5px);
+    transform: translateY(-0.5rem);
 }
 
 /*@media (max-width: 700px) {

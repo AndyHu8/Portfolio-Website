@@ -4,20 +4,19 @@
     font-family: var(--fontFamily);
     color: var(--black);
     padding: var(--paddingSection);
-    padding-bottom: 10%;
     background-color: var(--backgroundColor);
 }
 
 .kontakt-wrapper p {
     font-size: var(--fontSizeP);
-    margin-top: 3%;
+    margin-top: 3rem;
 }
 
 .kontakt-flexbox form {
     display: flex;
     flex-direction: column;
     gap: var(--gap);
-    margin-top: 3%;
+    margin-top: 3rem;
 }
 
 .kontakt-inputs {
@@ -45,9 +44,8 @@
 
 .form-group textarea {
     resize: vertical;
-    min-width: 100%;
-    min-height: 200px;
-    max-height: 300px;
+    min-height: 15rem;
+    max-height: 25rem;
 }
 
 .kontakt-flexbox button {
@@ -65,7 +63,7 @@
 .kontakt-flexbox button:hover {
     cursor: pointer;
     background-color: var(--hoverColorBackground);
-    transform: translateY(-5px);
+    transform: translateY(-0.5rem);
 }
 
 /*Design für EmailJS Funktionen*/
@@ -75,7 +73,7 @@ p.form-status {
     border-radius: var(--borderRadius);
     font-size: var(--fontSizeP);
     background-color: var(--backgroundColorWhite);
-    margin-top: 0%;
+    margin-top: 0rem;
     animation: slideIn 0.3s ease-out;
 }
 

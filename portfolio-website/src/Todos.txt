@@ -4,8 +4,4 @@ Main:
 - Sicherheit der Website klären + einbauen
 - Hosting mit Netlify oder Vercel (Ist es gut?)
 
-Refactoring:
-- Einheiten ordnen: wann rem, %, px
-- Tab Logo ändern
-
 - Am Ende: Komplettes Projekt an Chat refacten lassen
