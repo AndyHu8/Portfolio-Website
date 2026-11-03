@@ -1,7 +1,13 @@
 Main:
 - Responsive Design
 - Darkmode
-- Sicherheit der Website klären + einbauen
-- Hosting mit Netlify oder Vercel (Ist es gut?)
+- Sicherheit der Website einbauen
+- SEO einbauen
+- Hosting mit Netlify
 
+Refactoring:
+- Datenschutz: Hosting überarbeiten
+- Alle Seiten: im Tab "#" entfernen + Impressum/Datenschutz per Route verlinken
+
+- Am Ende: Chat fragen, was noch fehlen könnte
 - Am Ende: Komplettes Projekt an Chat refacten lassen

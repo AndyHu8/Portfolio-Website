@@ -1,0 +1,34 @@
+.notFound-wrapper {
+    font-family: var(--fontFamily);
+    text-decoration: none;
+    background-color: var(--backgroundColor);
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+.notFound-wrapper h1 {
+    font-size: 5rem;
+}
+
+.notFound-wrapper h2 {
+    font-size: 3rem;
+}
+
+.notFound-wrapper p {
+    font-size: 2rem;
+}
+
+.notFound-wrapper a {
+    transition: all 0.2s ease;
+    font-size: 2rem;
+}
+
+.notFound-wrapper a:hover {
+    cursor: pointer;
+    color: var(--gray);
+}
