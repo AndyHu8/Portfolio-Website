@@ -1,6 +1,5 @@
 Main:
 - Responsive Design
-- Darkmode
 - Hosting mit Netlify
 
 Refactoring:

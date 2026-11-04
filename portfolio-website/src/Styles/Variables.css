@@ -26,3 +26,26 @@ Welche Einheiten soll ich wann benutzen?
 - %: width, height (wenn die Elternhöhe definiert ist), Positionierungen, flexible Layouts
 - px: border, dünne Linien, box-shadow, kleine Details, gezielte Breakpoints
 */
+
+
+/* Lightmode */
+:root {
+    color-scheme: light;
+    --backgroundColor: #f7f7f8;
+    --black: #171719;
+    --backgroundColorWhite: white;
+    --hoverColorBackground: lightgray;
+    --hoverColorFont: gray;
+    --border: 3px solid lightgray;
+}
+
+/* Darkmode */
+:root[data-theme="dark"] {
+    color-scheme: dark;
+    --backgroundColor: #171719;
+    --black: #f7f7f8;
+    --backgroundColorWhite: #222225;
+    --hoverColorBackground: #303034;
+    --hoverColorFont: #aaaaaf;
+    --border: 3px solid #303034;
+}

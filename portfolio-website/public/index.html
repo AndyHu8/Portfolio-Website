@@ -82,6 +82,21 @@
         ]
     }
     </script>
+    <script>
+        // Überprüfen, ob ein gespeichertes Theme im Local Storage vorhanden ist
+        const savedTheme = localStorage.getItem("theme");
+
+        // Überprüfen, ob das System auf Dark Mode eingestellt ist
+        const systemDark = window.matchMedia(
+            "(prefers-color-scheme: dark)"
+        ).matches;
+
+        // Setze das Theme basierend auf der gespeicherten Einstellung oder dem System-Theme
+        document.documentElement.setAttribute(
+            "data-theme",
+            savedTheme || (systemDark ? "dark" : "light")
+        );
+    </script>
   </head>
   <body>
      <noscript>

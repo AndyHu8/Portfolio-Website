@@ -1,3 +1,14 @@
+body,
+section,
+nav,
+.card,
+button {
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border-color 0.3s ease;
+}
+
 .navbar-wrapper {
     height: 100%;
     color: var(--black);
@@ -43,9 +54,18 @@
     transition: all 0.2s ease;
 }
 
-.nav-list ul li a:hover {
+.nav-list ul li a:hover, .nav-list ul li button:hover {
     cursor: pointer;
     color: var(--hoverColorFont);
+}
+
+.nav-list ul li button {
+    color: var(--black);
+    text-decoration: none;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 
 .home-react-icons {
