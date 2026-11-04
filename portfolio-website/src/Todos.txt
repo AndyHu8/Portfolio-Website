@@ -1,7 +1,6 @@
 Main:
 - Responsive Design
 - Darkmode
-- SEO einbauen
 - Hosting mit Netlify
 
 Refactoring:
@@ -9,3 +8,4 @@ Refactoring:
 
 - Am Ende: Chat fragen, was noch fehlen könnte
 - Am Ende: Komplettes Projekt an Chat refacten lassen
+- Am Ende: In robots.txt & sitemap URL anpassen
