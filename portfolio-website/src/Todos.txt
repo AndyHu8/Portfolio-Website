@@ -6,7 +6,6 @@ Main:
 - Hosting mit Netlify
 
 Refactoring:
-- Datenschutz: Hosting überarbeiten
 - Alle Seiten: im Tab "#" entfernen + Impressum/Datenschutz per Route verlinken
 
 - Am Ende: Chat fragen, was noch fehlen könnte
