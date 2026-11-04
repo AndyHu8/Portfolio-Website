@@ -8,4 +8,4 @@ Refactoring:
 
 - Am Ende: Chat fragen, was noch fehlen könnte
 - Am Ende: Komplettes Projekt an Chat refacten lassen
-- Am Ende: In robots.txt & sitemap URL anpassen
+- Am Ende: In robots.txt & sitemap korrekte URL anpassen
