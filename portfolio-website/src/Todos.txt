@@ -1,7 +1,6 @@
 Main:
 - Responsive Design
 - Darkmode
-- Sicherheit der Website einbauen
 - SEO einbauen
 - Hosting mit Netlify
 

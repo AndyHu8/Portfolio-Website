@@ -21,7 +21,7 @@ function About(){
                         <p>Besonders interessant finde ich die Verbindung aus sauberem Code,
                         guter User Experience und modernem UI-Design.</p>
                     </div>
-                    <img src={Profilfoto} alt="Profilfoto" />
+                    <img src={Profilfoto} alt="Profilfoto von Dev Andy" />
                 </div>
                 <div className='about-zusammenfassung'>
                     <p><FaLocationDot className='about-react-icons' size={30}/> Berlin</p>
