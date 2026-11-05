@@ -11,6 +11,8 @@ import Projekte from './Projekte/Projekte';
 import Kontakt from './Kontakt/Kontakt';
 import Footer from './Footer/Footer';
 import WeitereSeiten from './WeitereSeiten/WeitereSeiten';
+import Impressum from './WeitereSeiten/Impressum';
+import Datenschutz from './WeitereSeiten/Datenschutz';
 import NotFound from './NotFound/NotFound';
 
 function App() {
@@ -61,7 +63,10 @@ function App() {
 
         {/*404-Seite*/}
         <Route path="*" element={<NotFound/>} />
-
+        {/*Impressum*/}
+        <Route path="/Impressum" element={<Impressum/>} />
+        {/*Datenschutz*/}
+        <Route path="/Datenschutz" element={<Datenschutz/>} />
       </Routes>
     </BrowserRouter>
   );

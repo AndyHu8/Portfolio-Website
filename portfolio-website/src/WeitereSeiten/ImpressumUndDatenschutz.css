@@ -1,0 +1,12 @@
+.impressumUndDatenschutz-wrapper {
+    min-height: 100vh;
+    min-height: 100dvh;
+    width: 100%;
+    padding: var(--paddingSection);
+    font-size: var(--fontSizeP);
+    font-family: var(--fontFamily);
+    background-color: var(--backgroundColor);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
