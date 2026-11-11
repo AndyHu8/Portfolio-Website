@@ -84,6 +84,10 @@
 /* Smartphone */
 @media (max-width: 768px) {
 
+    .about-wrapper {
+        padding: var(--paddingSectionSmartphone);
+    }
+
     .about-inhalt {
         padding: 1.5rem;
     }

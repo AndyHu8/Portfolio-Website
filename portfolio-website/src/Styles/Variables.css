@@ -16,6 +16,7 @@
     /*Abstände*/
     --paddingSection: 5rem clamp(2rem, 30vw, 30rem);
     --paddingSectionSmall: 5rem clamp(2rem, 20vw, 30rem);
+    --paddingSectionSmartphone: 5rem clamp(2rem, 5vw, 30rem);
     --gap: 1.5rem;
 
     /*Border*/

@@ -1,9 +1,6 @@
 Main:
 - Responsive Design
-WeitereSeiten
 Footer
-Datenschutz
-Impressum
 Home
 Skills
 Projekte

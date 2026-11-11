@@ -25,3 +25,10 @@
         padding: var(--paddingSectionSmall);
     }
 }
+
+/* Smartphone */
+@media (max-width: 768px) {
+    .impressumUndDatenschutz-wrapper {
+        padding: var(--paddingSectionSmartphone);
+    }
+}
