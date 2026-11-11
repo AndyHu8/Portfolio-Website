@@ -11,24 +11,40 @@
     min-height: 100dvh;
 }
 
+h1, h2, p {
+    padding: 0.5rem;
+}
+
 .notFound-wrapper h1 {
-    font-size: 5rem;
+    font-size: var(--fontSizeH1);
 }
 
 .notFound-wrapper h2 {
-    font-size: 3rem;
+    font-size: var(--fontSizeH2);
+    text-align: center;
 }
 
 .notFound-wrapper p {
-    font-size: 2rem;
+    font-size: var(--fontSizeP);
+    text-align: center;
 }
 
 .notFound-wrapper a {
     transition: all 0.2s ease;
-    font-size: 2rem;
+    font-size: var(--fontSizeP);
+    text-align: center;
 }
 
 .notFound-wrapper a:hover {
     cursor: pointer;
     color: var(--gray);
+}
+
+/* Responsive Design */
+
+/* Smartphone */
+@media (max-width: 768px) {
+    .notFound-wrapper {
+        padding: var(--paddingSectionSmartphone);
+    }
 }
