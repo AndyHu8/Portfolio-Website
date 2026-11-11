@@ -1,5 +1,15 @@
 Main:
 - Responsive Design
+WeitereSeiten
+Footer
+Datenschutz
+Impressum
+Home
+Skills
+Projekte
+Navbar
+Kontakt
+
 - Hosting mit Netlify
 
 - Am Ende: Chat fragen, was noch fehlen könnte

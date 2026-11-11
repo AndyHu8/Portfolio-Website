@@ -21,6 +21,18 @@
     text-decoration: none;
 }
 
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+section {
+    width: 100%;
+    max-width: none;
+}
+
 /* Chrome, Edge und Safari */
 ::-webkit-scrollbar-track {
     background: var(--backgroundColor);

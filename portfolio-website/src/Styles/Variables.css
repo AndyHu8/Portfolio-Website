@@ -9,10 +9,12 @@
     /*Font*/
     --fontFamily: "Outfit", sans-serif;
     --fontFamilyChinese: "Noto Sans SC", sans-serif;
-    --fontSizeP: 1.2rem;
+    --fontSizeH1: clamp(2rem, 2vw, 4rem);
+    --fontSizeP: clamp(0.9rem, 1.1vw, 1.2rem);
 
     /*Abstände*/
-    --paddingSection: 5rem 30rem;
+    --paddingSection: 5rem clamp(2rem, 30vw, 30rem);
+    --paddingSectionSmall: 5rem clamp(2rem, 20vw, 30rem);
     --gap: 1.5rem;
 
     /*Border*/
@@ -27,6 +29,12 @@ Welche Einheiten soll ich wann benutzen?
 - px: border, dünne Linien, box-shadow, kleine Details, gezielte Breakpoints
 */
 
+/*
+Responsive Design:
+- PaddingSectionSmall: 1600px
+- Tablet: 1024px
+- Smartphone: 768px
+*/
 
 /* Lightmode */
 :root {
