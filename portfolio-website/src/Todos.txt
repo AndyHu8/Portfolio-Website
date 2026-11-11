@@ -1,6 +1,6 @@
 Main:
-- Responsive Design
-Footer
+- Responsive Design:
+NotFound
 Home
 Skills
 Projekte

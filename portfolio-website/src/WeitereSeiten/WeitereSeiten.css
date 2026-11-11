@@ -29,6 +29,6 @@
 @media (max-width: 768px) {
     .weitereSeiten-wrapper {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
     }
 }

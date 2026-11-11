@@ -14,18 +14,18 @@ function Footer() {
                 <a
                     href="https://linkedin.com/in/andy-hu-berlin/"
                     target="_blank"
-                    rel="noopener noreferrer"><FaLinkedin size={30} className='react-icon'/> LinkedIn</a>
+                    rel="noopener noreferrer"><FaLinkedin className='react-icon'/> LinkedIn</a>
                 <a
                     href="https://instagram.com/anhu_chn"
                     target="_blank"
-                    rel="noopener noreferrer"><FaInstagramSquare size={30} className='react-icon'/> Instragram</a>
+                    rel="noopener noreferrer"><FaInstagramSquare className='react-icon'/> Instragram</a>
                 <a 
                     href="https://github.com/AndyHu8"
                     target="_blank"
-                    rel="noopener noreferrer"><FaGithub size={30} className='react-icon'/> GitHub</a>
+                    rel="noopener noreferrer"><FaGithub className='react-icon'/> GitHub</a>
             </div>
             <div className='footer-divs'>
-                <a href="mailto:huandy01@gmail.com"><MdEmail size={30} className='react-icon'/> Direkt erreichbar</a>
+                <a href="mailto:huandy01@gmail.com"><MdEmail className='react-icon'/> Direkt erreichbar</a>
             </div>
         </section>
     )
