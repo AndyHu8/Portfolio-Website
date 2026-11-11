@@ -10,3 +10,18 @@
     flex-direction: column;
     gap: 2rem;
 }
+
+.impressumUndDatenschutz-wrapper h1 {
+    font-size: var(--fontSizeH1);
+}
+
+.impressumUndDatenschutz-wrapper h2 {
+    font-size: var(--fontSizeH2);
+}
+
+/* Responsive Design */
+@media (max-width: 1600px) {
+    .impressumUndDatenschutz-wrapper {
+        padding: var(--paddingSectionSmall);
+    }
+}

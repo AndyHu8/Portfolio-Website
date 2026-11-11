@@ -9,7 +9,8 @@
     /*Font*/
     --fontFamily: "Outfit", sans-serif;
     --fontFamilyChinese: "Noto Sans SC", sans-serif;
-    --fontSizeH1: clamp(2rem, 2vw, 4rem);
+    --fontSizeH1: clamp(1.5rem, 2.5vw, 4rem);
+    --fontSizeH2: clamp(1rem, 1.5vw, 3rem);
     --fontSizeP: clamp(0.9rem, 1.1vw, 1.2rem);
 
     /*Abstände*/

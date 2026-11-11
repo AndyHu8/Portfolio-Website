@@ -61,6 +61,7 @@
     top: 0.5rem;
 }
 
+/* Responsive Design */
 @media (max-width: 1600px) {
     .about-wrapper {
         padding: var(--paddingSectionSmall);

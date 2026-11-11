@@ -3,7 +3,7 @@
     display: flex;
     gap: var(--gap);
     justify-content: flex-end;
-    padding: 1.5rem 30rem;
+    padding: 1.5rem clamp(2rem, 30vw, 30rem);
     font-size: var(--fontSizeP);
     font-family: var(--fontFamily);
     background-color: var(--backgroundColorWhite);
@@ -16,4 +16,19 @@
 
 .weitereSeiten-wrapper p a:hover {
     cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1600px) {
+    .weitereSeiten-wrapper {
+        padding: 1.5rem clamp(2rem, 20vw, 30rem);
+    }
+}
+
+/* Smartphone */
+@media (max-width: 768px) {
+    .weitereSeiten-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
 }
