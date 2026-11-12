@@ -1,20 +1,16 @@
 .skillstack-wrapper {
     font-size: var(--fontSizeP);
     padding: 2rem;
-    min-width: 30%;
     border: var(--border);
     border-radius: var(--borderRadius);
 }
 
 .skillstack-realstack {
     line-height: 3;
+    display: flex;
+    align-items: center;
 }
 
-.skillstack-realstack .span-text {
+.span-text {
     padding-left: 0.5rem;
-}
-
-.skills-react-icons {
-    position: relative;
-    top: 0.5rem;
 }

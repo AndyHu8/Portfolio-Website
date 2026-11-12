@@ -1,5 +1,3 @@
-import './AllSkills.css';
-
 //Frontend Icons
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
