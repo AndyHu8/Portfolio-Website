@@ -24,7 +24,7 @@
     white-space: nowrap;
 
     /*Größe*/
-    font-size: 20rem;
+    font-size: var(--fontSizeChinese);
 
     /*Hintergrund*/
     color: var(--hoverColorBackground);
@@ -42,7 +42,11 @@
 }
 
 .home-text h1 {
-    font-size: 70px;
+    font-size: var(--fontSizeH1Home);
+}
+
+.home-text h2 {
+    font-size: var(--fontSizeH2);
 }
 
 .home-text p {
@@ -50,17 +54,24 @@
 }
 
 .home-buttons {
-    margin-top: 50px;
+    margin-top: 3rem;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
+    flex-wrap: wrap;
 }
 
 .home-buttons a {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
     font-size: var(--fontSizeP);
     color: var(--black);
     background-color: var(--backgroundColorWhite);
-    padding: 15px 50px;
-    margin-right: 25px;
+    padding: 1rem 2rem;
     border-radius: 13px;
     border: 1px solid white;
     text-decoration: none;
@@ -74,6 +85,32 @@
 }
 
 .home-react-icons {
+    font-size: 1.5rem;
     position: relative;
-    top: 2.5px;
+    top: 0;
+}
+
+.home-react-icons-hand {
+    font-size: var(--fontSizeReactIconHand);
+}
+
+/* Responsive Design */
+
+/* Tablet */
+@media (max-width: 1024px) {
+
+    .home-wrapper {
+        padding: var(--paddingSectionSmall);
+    }
+}
+
+/* Smartphone */
+@media (max-width: 768px) {
+    .home-buttons a {
+        padding: 0.75rem 1.5rem;
+    }
+
+    .home-react-icons {
+        font-size: 1rem;
+    }
 }

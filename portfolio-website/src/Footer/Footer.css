@@ -37,13 +37,6 @@
     gap: var(--gap);
 }
 
-.social-links a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-}
-
 .react-icon {
     font-size: 2rem;
 }

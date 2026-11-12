@@ -9,9 +9,12 @@
     /*Font*/
     --fontFamily: "Outfit", sans-serif;
     --fontFamilyChinese: "Noto Sans SC", sans-serif;
+    --fontSizeChinese: clamp(10rem, 40vw, 20rem);
+    --fontSizeH1Home: clamp(3rem, 4vw, 4rem);
     --fontSizeH1: clamp(1.5rem, 2.5vw, 4rem);
     --fontSizeH2: clamp(1rem, 1.5vw, 3rem);
-    --fontSizeP: clamp(1rem, 1.1vw, 1.2rem);
+    --fontSizeP: clamp(1rem, 1vw, 1.2rem);
+    --fontSizeReactIconHand: clamp(2rem, 3vw, 3rem);
 
     /*Abstände*/
     --paddingSection: 5rem clamp(2rem, 30vw, 30rem);

@@ -1,6 +1,5 @@
 Main:
 - Responsive Design:
-Home
 Skills
 Projekte
 Navbar
