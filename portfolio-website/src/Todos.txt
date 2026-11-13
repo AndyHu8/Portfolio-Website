@@ -1,6 +1,5 @@
 Main:
 - Responsive Design:
-Projekte
 Navbar
 Kontakt
 
