@@ -1,6 +1,5 @@
 Main:
 - Responsive Design:
-Navbar
 Kontakt
 
 - Hosting mit Netlify
