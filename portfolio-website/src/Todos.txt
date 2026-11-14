@@ -1,7 +1,4 @@
 Main:
-- Responsive Design:
-Kontakt
-
 - Hosting mit Netlify
 
 - Am Ende: Chat fragen, was noch fehlen könnte

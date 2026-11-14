@@ -34,9 +34,9 @@ const handleSubmit = async (event) => {
     event.preventDefault();
     const form = event.currentTarget;
 
-    if(status === "loading") return;
+    if(status === "loadingSenden") return;
 
-    setStatus("loading");
+    setStatus("loadingSenden");
 
     try {
         await sendEmail(form);
@@ -95,8 +95,8 @@ const handleSubmit = async (event) => {
                         />
                     </div>
 
-                    <button type="submit" disabled={status === "loading"} className={`sendButton ${status}`}>
-                        {status === "loading" ? "Wird gesendet..." : "Nachricht senden"}
+                    <button type="submit" disabled={status === "loadingSenden"} className={`sendButton ${status}`}>
+                        {status === "loadingSenden" ? "Wird gesendet..." : "Nachricht senden"}
                     </button>
 
                     {status === "success" && (<p className={`form-status success  ${isFadingOut ? "fade-out" : ""}`} role="status">Nachricht erfolgreich gesendet!</p>)}

@@ -7,6 +7,10 @@
     background-color: var(--backgroundColor);
 }
 
+.kontakt-wrapper h1 {
+    font-size: var(--fontSizeH1);
+}
+
 .kontakt-wrapper p {
     font-size: var(--fontSizeP);
     margin-top: 3rem;
@@ -49,6 +53,8 @@
 }
 
 .kontakt-flexbox button {
+    white-space: nowrap;
+    box-sizing: border-box;
     align-self: flex-start;
     color: var(--black);
     background-color: var(--backgroundColorWhite);
@@ -60,7 +66,7 @@
     transition: all 0.1s ease-in-out;
 }
 
-.kontakt-flexbox button:hover {
+.kontakt-flexbox button:not(:disabled):hover {
     cursor: pointer;
     background-color: var(--hoverColorBackground);
     transform: translateY(-0.5rem);
@@ -96,9 +102,35 @@ button:disabled {
     animation: fadeOut 0.4s ease-in forwards;
 }
 
+/* Responsive Design */
+@media (max-width: 1400px) {
+    .kontakt-wrapper {
+        padding: var(--paddingSectionSmall);
+    }
+}
 
-/*@media (max-width: 600px) {
+/* Smartphone */
+@media (max-width: 768px) {
+    .kontakt-wrapper {
+        padding: var(--paddingSectionSmartphone);
+    }
+
     .kontakt-inputs {
         flex-direction: column;
     }
-}*/
+
+    .form-group input,
+    .form-group textarea,
+    .kontakt-flexbox button {
+        padding: 0.5rem 0.8rem;
+    }
+
+    .form-group textarea {
+        min-height: 12.5rem;
+        max-height: 20rem;
+    }
+
+    p.form-status {
+        padding: 0.5rem;
+    }
+}
