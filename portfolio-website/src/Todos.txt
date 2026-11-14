@@ -1,6 +1,5 @@
 Main:
-- Hosting mit Netlify
-
 - Am Ende: Chat fragen, was noch fehlen könnte
 - Am Ende: Komplettes Projekt an Chat refacten lassen
+- Hosting mit Netlify
 - Am Ende: In robots.txt & sitemap korrekte URL anpassen
